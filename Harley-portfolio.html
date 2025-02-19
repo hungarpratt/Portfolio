@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<!--Commenting in your code does wonders-->
+<html lang="en">
+<head>
+     <!--These are elements that help you style the page-->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Harley-portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+     <!--This is a little tidbit that gets it to be responsive, do not worry about that now-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harley Ungar - Personal Website</title>
+  
+</head>
+<body>
+    <!--The main landmark role is used to indicate the primary content of a document-->
+    <div class="container" role="main">
+        <!--What is the purpose of "container" / "main"-->
+        <div class="top-half">
+
+            <!--I store two containers within the top half-->
+            <div class="top-container">
+                <nav>
+                    <!--the hash represents current page-->
+                    <a href="Harley-portfolio.html">About</a>
+                    <a href="">Work</a>
+                    <!--this replaces a link with an icon-->
+                    <a href="https://www.facebook.com/harley.ungar" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook social-icon facebook-icon"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/harley-ungar-4ab96/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin social-icon linkedin-icon"></i>
+                    </a>
+                </nav>
+                <h1>My Ceramics Journey</h1>
+                <p>In the fall of 2023, I signed up for my first ceramics class. (Well, technically I began working with clay as a ten year old at summer camp. I made one pinch pot that summer, and that was the extent of my early career.) </p>
+                <p>For the first few months of ceramics class, I struggled with each step of the process: wedging (aka kneading) the clay, centering the mound on the wheel, "pulling up" the sides, trimming the partially dried vessel, and - finally - applying the glaze. </p>
+                <p> My progress has been far from linear, but in general I've come a long way. What started out as a once-a-week hobby has blossomed into a full-blown obsession. If I don't get to the studio a few times a week, I viscerally feel the loss.
+                </p>
+            </div>
+            <div class="image-hover-container">
+                <img src="Images/Harley_BW.jpg" id="circle-image-big" class="hover-image" alt="Harley Ungar">
+                <img src="Images/sphere_bowl.JPG" class="hover-image hover-fade" alt="Sphere Bowl">           
+            </div>
+        </div>
+        <!-- What does hr style do? Why is it on the top half but not bottom half of container?-->
+        <hr style="border: none; height: 1px; background-color: black;" />
+            <div class="bottom-half">
+            <!--and I store three containers in the bottom half-->
+            <div class="bottom-container">
+            <div class="content-wrapper">
+            <div class="text-content" >
+             <h2>CREATING THE FORM</h2>
+             <a href="Creating.html" target="_blank">
+                <img src="Images/Icons/Icon-Create.jpg" class="wrap-image icon-hover" alt="Creating the form">
+                </a>
+
+               <p> Creating a piece of pottery is an elegant, beautiful process... <i> if </i> you're a pro! 
+                <a href="Creating.html" target="_blank"> My approach </a> is a bit less seamless, a bit more frenetic. </p>
+            </div>
+            
+            </div>
+        </div>
+            <div class="bottom-container">
+                <div class="content-wrapper">
+                    <div class="text-content">
+                <h2> FINISHING THE PIECE</h2>
+                <a href="Finishing.html" target="_blank">
+                <img src="Images/Icons/Icon-Glaze.jpg" class="wrap-image icon-hover" alt="Choosing the glaze">
+            </a>
+                    <p> I'd initially assumed mastering the wheel was 
+                        the goal. Then I discovered that "throwing" is only half of the equation. <a href="Finishing.html" target="_blank">Glazing </a>is just as important.</p>
+        </div>
+           
+        </div>
+    </div>
+            <div class="bottom-container">
+                <div class="content-wrapper">
+                    <div class="text-content">
+                 <h2> SHOWCASING THE WORK</h2>
+                 <a href="Gallery.html" target="_blank">
+                 <img src="Images/Icons/icon-showcase.jpg" class="wrap-image icon-hover" alt="Gallery">
+                 </a>
+                    <p> Since making my first pot in September 2023, I've created about 50 unique pieces. My <a href="Gallery.html" target="_blank">gallery</a> includes a selection of bowls, plates and mugs.</p>
+            </div>
+        
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>© 2025 Harley Ungar | Designed with passion (and lots of trial and error)</p>
+    </footer>
+</body>
+</html>
